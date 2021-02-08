@@ -17,3 +17,14 @@ p {
 div p {
     font-weight: bold;
 }
+div+p{
+    transform: rotate(180deg);
+}
+h1:hover,
+p:hover{
+   text-decoration: underline; 
+   cursor:pointer;
+}
+p::first-letter{
+    font-size: 2rem;
+}
